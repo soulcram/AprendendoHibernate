@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="br.com.m3Tech.AprendendoHibernate.model.UsuarioOld"
+	       table="TB_USUARIO_OLD">
+	       
+	       <id name="id"
+	       	   column="ID_USUARIO">
+	       	   <generator class="increment"/>
+	       </id>
+	       
+	       <property 
+	       	name="nome"
+	       	column="NM_USUARIO"/>
+	       		
+	       <property 
+	       	name="idade"
+	       	column="IDADE_USUARIO"/>		
+		
+	</class>
+</hibernate-mapping>
